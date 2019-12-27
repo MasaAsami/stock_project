@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import matplotlib      # Macの場合、これがないとエラーになることも python 3.6の場合　3.7では不要？
+matplotlib.use('tkagg') # Macの場合、これがないとエラーになることも python 3.6の場合　3.7では不要？
 #app用
 import numpy as np
 import tkinter as tk
